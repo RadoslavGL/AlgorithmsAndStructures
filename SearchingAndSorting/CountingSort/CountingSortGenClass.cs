@@ -14,6 +14,7 @@ namespace CountingSort
             List<List<T>> positions = new List<List<T>>(positionsCount);
             for (int i = 0; i < positionsCount; i++)
             {
+                //we need lists with 0s 
                 positions.Add(new List<T>());
             }
 
